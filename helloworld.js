@@ -1,32 +1,32 @@
 // Hello World: My First JavaScript program
-console.log("Hello World"); // Look! I did it​
+console.log("Hello World"); // Look! I did it
 // Save values for later use
 const friendlyGreeting = "Rodger"; // I am going to use this one again
 console.log(friendlyGreeting);
 
 const whatAmIDoing = "I just combine two varibles!";
 console.log(friendlyGreeting + " " + whatAmIDoing);
-console.log("Rodger" + " " + "I just combine two varibles!");​ 
+console.log("Rodger" + " " + "I just combined two variables!");
 const theAnswer = 23 + 19;
 console.log(theAnswer);
-​
+
 const firstNumber = 23;
 let secondNumber = 19;
-const theAnswer = firstNumber + secondNumber; // 23 + 19 = 42
+// const theAnswer = firstNumber + secondNumber; // 23 + 19 = 42
 console.log("The answer is", theAnswer); // My answer is 42
-​
+
 secondNumber = 100;
 const secondAnswer = firstNumber + secondNumber; // 23 + 100 = 123
 console.log("My second answer is ", secondAnswer);//secondAnswer = 123
 console.log("The answer is still", theAnswer); // my answer is still 42
 console.log("Even though the second number is now ", secondNumber); //second number is 100
-​
+
 const theString = `My second answer is ${theAnswer} not the ${secondAnswer}`
 console.log(theString);
-​
+
 //Call function
 //add();
-​
+
 //now I am going to right a function
 function add(){
     let num1 = 2;
@@ -37,13 +37,13 @@ function add(){
 }
 //now I am going to call my function
 //add(2,3); //<-- return 5
-​
+
 //Created variable for numbers, and function
 //let numberOne = 2;
 //let numberTwo = 3;
 //let functionAnswer = add(numberOne,numberTwo);
-​
-​
+
+
 //Print and call the function
 //console.log(functionAnswer); // 5
 
@@ -90,7 +90,6 @@ const firstItem = todos[0]
 console.log(firstItem);
 
 //Callin an Array Position
-const firstItem = todos[0]
 console.log(firstItem);
 
 //find out how many items are in array
@@ -120,13 +119,13 @@ console.log(todos.length);
 console.log(todos);
 
 //Join string to item list
-const todoString = todo.join('!\n');
-
-//Call the join
-console.log(todoString1);
+const todoString = todos.join('!\n');
 
 //Create a string
 const todoString1 = 'pet the cat! go to work! shop for groceries! go home! feed the cat!';
+
+//Call the join
+console.log(todoString1);
 
 //Splitting the string
 const todos1 = todoString1.split('! ');
@@ -181,4 +180,3 @@ console.log(jeff)
 
 jeff.likesCalzones = true;
 console.log("Jeff Likes Calzones" + " " + jeff.likesCalzones);
-
